@@ -1,0 +1,7 @@
+You can use nix to setup all dependencies (without nvim)
+look shell.nix as example
+
+or you need ghc, stack, haskell-language-server, fast-tags, hoogle
+
+# change NVIM_DATA_MINIMAL to fixed folder
+alias haskell-ide='NVIM_DATA_MINIMAL="/tmp/minimal" NVIM_APP_NAME="nvim-ht-minimal" nvim -u minimal.lua Main.hs'
